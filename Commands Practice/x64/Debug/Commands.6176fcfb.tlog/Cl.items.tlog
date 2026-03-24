@@ -1,3 +1,6 @@
-C:\Temp\Jasons Work\Commands Practice\Commands Practice\CommandExecuter.cpp;C:\Temp\Jasons Work\Commands Practice\Commands Practice\x64\Debug\CommandExecuter.obj
-C:\Temp\Jasons Work\Commands Practice\Commands Practice\IInstructionCommand.cpp;C:\Temp\Jasons Work\Commands Practice\Commands Practice\x64\Debug\IInstructionCommand.obj
-C:\Temp\Jasons Work\Commands Practice\Commands Practice\main.cpp;C:\Temp\Jasons Work\Commands Practice\Commands Practice\x64\Debug\main.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\C_BaseGather.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\C_BaseGather.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\CommandExecuter.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\CommandExecuter.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\C_EfficientGather.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\C_EfficientGather.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\C_FastGather.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\C_FastGather.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\IInstructionCommand.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\IInstructionCommand.obj
+C:\Temp\Jasons Work\Commands\Commands Practice\main.cpp;C:\Temp\Jasons Work\Commands\Commands Practice\x64\Debug\main.obj

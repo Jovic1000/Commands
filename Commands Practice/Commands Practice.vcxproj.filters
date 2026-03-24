@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\IInterfaces">
+      <UniqueIdentifier>{c21ac80a-1855-4a06-86af-735e441e8245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\C_Types">
+      <UniqueIdentifier>{4a8adde4-7cc4-40c3-b6d7-b61b7b6b8910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\C_Types">
+      <UniqueIdentifier>{993a9f88-95b9-4e48-ab4d-a6b1d2917bbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,6 +33,15 @@
     <ClCompile Include="CommandExecuter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C_BaseGather.cpp">
+      <Filter>Source Files\C_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C_EfficientGather.cpp">
+      <Filter>Source Files\C_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C_FastGather.cpp">
+      <Filter>Source Files\C_Types</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IInstructionCommand.h">
@@ -31,6 +49,18 @@
     </ClInclude>
     <ClInclude Include="CommandExecuter.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGatherWood.h">
+      <Filter>Header Files\IInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C_BaseGather.h">
+      <Filter>Header Files\C_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C_EfficientGather.h">
+      <Filter>Header Files\C_Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C_FastGather.h">
+      <Filter>Header Files\C_Types</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

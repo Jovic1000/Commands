@@ -1,7 +1,8 @@
 #pragma once
 #include <queue>
 
-class Resorces
+
+class Resources
 {
 public:
 
@@ -17,19 +18,25 @@ class BuildSystem
 {
 public:
 
-	void BuildHut(Resorces* resorces);
+	void BuildHut(Resources* resources);
 	void Rest();
 
 private:
 };
 
+class IGatherWood;
 class Worker
 {
 public:
 
-	void GatherWood(Resorces* resorces);
+	void GatherWood(Resources* resources);
+
+
+	Worker(IGatherWood* Strat);
 
 private:
+
+	IGatherWood* m_currentStrat;
 
 };
 
@@ -51,12 +58,12 @@ public:
 	void DoAction() override;
 	bool CanDoAction() override;
 
-	BuildHutCommand(Resorces* resorces, BuildSystem* build);
+	BuildHutCommand(Resources* resorces, BuildSystem* build);
 	~BuildHutCommand();
 
 private:
 
-	Resorces* m_resorces;
+	Resources* m_resorces;
 	BuildSystem* m_build;
 
 };
@@ -68,12 +75,12 @@ public:
 	void DoAction() override;
 	bool CanDoAction() override;
 
-	GatherWoodCommand(Resorces* resorces, Worker* worker);
+	GatherWoodCommand(Resources* resorces, Worker* worker);
 	~GatherWoodCommand();
 
 private:
 
-	Resorces* m_resorces;
+	Resources* m_resorces;
 	Worker* m_worker;
 };
 

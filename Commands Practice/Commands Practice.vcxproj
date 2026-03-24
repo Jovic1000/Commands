@@ -123,12 +123,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C_BaseGather.cpp" />
     <ClCompile Include="CommandExecuter.cpp" />
+    <ClCompile Include="C_EfficientGather.cpp" />
+    <ClCompile Include="C_FastGather.cpp" />
     <ClCompile Include="IInstructionCommand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C_BaseGather.h" />
     <ClInclude Include="CommandExecuter.h" />
+    <ClInclude Include="C_EfficientGather.h" />
+    <ClInclude Include="C_FastGather.h" />
+    <ClInclude Include="IGatherWood.h" />
     <ClInclude Include="IInstructionCommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
